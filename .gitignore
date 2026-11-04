@@ -1,0 +1,20 @@
+# Claude Code files for this folder only (local permissions, launch config)
+.claude/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies, build output, logs
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.log
+
+# Backups and OS files
+*.bak
+.DS_Store
+Thumbs.db
